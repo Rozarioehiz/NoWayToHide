@@ -7,7 +7,11 @@ import java.util.List;
 public interface DriverRepository {
     Driver save(Driver driver);
 
-   long count();
+    static long count() {
+        return 0;
+    }
+
+    long count();
 
     Driver findById(int id);
 

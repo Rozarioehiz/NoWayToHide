@@ -70,5 +70,10 @@ public class OfficerRepositoryImpl implements OfficerRepository {
         return false;
     }
 
+    @Override
+    public void register(String fullName, String mail, String password) {
+
+    }
+
 
 }

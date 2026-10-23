@@ -1,9 +1,11 @@
 package com.lastma.data.models;
 
 public class Officer {
+    public String getPassword;
     private String fullName;
     private String email;
     private int id;
+    private String password;
 
     public String getFullName() {
         return fullName;
@@ -27,5 +29,9 @@ public class Officer {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -1,6 +1,5 @@
 package com.lastma.data.repositories;
 
-import com.lastma.data.models.Driver;
 import com.lastma.data.models.Officer;
 
 import java.util.List;
@@ -22,4 +21,6 @@ public interface OfficerRepository {
     boolean exitById(int officerId);
 
     boolean existById(int id);
+
+    void register(String fullName, String mail, String password);
 }

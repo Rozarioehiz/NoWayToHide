@@ -5,6 +5,12 @@ import java.time.Year;
 public class Vehicle {
     private String brand;
     private String model;
+    private Year year;
+    private ViolationType Type;
+    private int id;
+
+
+
 
     public String getBrand() {
         return brand;
@@ -38,9 +44,13 @@ public class Vehicle {
         Type = type;
     }
 
-    private Year year;
-    private ViolationType Type;
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    public int getId(){
+        return id;
+    }
 
 }
